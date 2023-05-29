@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__container{
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rem;
+    height: 80px;
+}
+
+.header__nav {
+    margin-inline:10px ;
+}
+
+.header__img {
+    width: 70px;
+    height: 100px;
+}
+
+.header__link{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-inline: 10px;
+}
+
+.header-red {
+  background-color: #0F1020;
+    color: #EFC3F5;
+  }
+  
+  .header-green {
+    background-color: #0F1020;
+    color: #EBEBD3;
+  }
+  
+
+  
+  .link {
+    color: inherit;
+  }
+  
+  .transition {
+    transition: all 1s;
+  }
+  
