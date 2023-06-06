@@ -10,17 +10,17 @@
   
   .content__box1 {
     border: none;
-    width: 600px;
-    height: 200px;
-    background-color: aqua;
+    width: 90%;
+    height: 500px;
+    background-color: #87BBA2;
     margin: 20px;
   }
 
   .content__box2 {
     border: none;
-    width: 600px;
-    height: 200px;
-    background-color: chocolate;
+    width: 90%;
+    height: 500px;
+    background-color: #EFC3F5;
     margin: 20px;
   }
   
@@ -32,6 +32,7 @@
   .content__button1 {
     font-family: 'Space Mono', monospace;
     border-radius: 50px;
+    background-color: #87BBA2;
     width: 100px;
     height: 50px;
     margin: 10px;
@@ -41,6 +42,7 @@
   .content__button2 {
     font-family: 'Space Mono', monospace;
     border-radius: 50px;
+    background-color: #EFC3F5;
     width: 100px;
     height: 50px;
     margin: 10px;

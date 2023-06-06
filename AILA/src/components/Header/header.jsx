@@ -19,25 +19,34 @@ return (
     <header className={`header ${headerClass} transition`}>
     <div className="header__container">
         <img  className="header__img" src="./img/aila.png" alt="Logo" />
-        <h1 className="header__logo">AILA</h1>
+        <h1 className="header__logo">AILA STORE</h1>
 
         <nav className="header__nav">
-          {/* Usar el atributo onClick para llamar a la función changeClass con el color que corresponda */}
         <a
             className="header__link link"
             href="#"
             onClick={() => changeClass("red")}
         >
-            Iniciar Sesion
+            Home
         </a>
         <a
             className="header__link link"
             href="#"
             onClick={() => changeClass("green")}
         >
-            Registrarse
+            Tienda
+        </a>
+        <a
+            className="header__link link"
+            href="#"
+            onClick={() => changeClass("green")}
+        >
+            Contacto
         </a>
 
+
+
+        
         </nav>
     </div>
     </header>
