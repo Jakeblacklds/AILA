@@ -1,0 +1,16 @@
+.itemdetail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: 20%;
+    margin-top: 40px;
+    background-color: #EFC3F5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.itemdetail__img{
+    width: 300px;
+}

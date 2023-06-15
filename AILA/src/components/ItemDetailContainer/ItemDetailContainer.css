@@ -1,0 +1,29 @@
+
+
+.container {
+    overflow: hidden;
+    height:100px;
+    transition: height 0.5s;
+  }
+  
+  .container.show {
+    height: 1000px; 
+  }
+
+.loading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}

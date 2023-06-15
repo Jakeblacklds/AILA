@@ -1,0 +1,56 @@
+
+[
+  {
+    "name": "Macbook Air",
+    "price": 1000,
+    "description": "Laptop 13 pulgadas 8gb ram 256gb ssd",
+    "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-silver-select-20220606?wid=539&hei=365&fmt=jpeg&qlt=95&.v=1653084303678",
+    "category": "Laptop",
+    "id": 1
+  },
+  {
+    "name": "Ipad Pro",
+    "price": 500,
+    "description": "Tablet 12 Oled",
+    "img": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP785/ipad-pro-12-2018.png",
+    "category": "Tablet",
+    "id": 2
+  },
+  {
+    "name": "Iphone 14 pro",
+    "price": 300,
+    "description": "Iphone 256gb 6gb ram ",
+    "img": "https://cebasic.com/wp-content/uploads/2023/02/iphone-14-pro-max.png",
+    "category": "Celular",
+    "id": 3
+  },
+ 
+  {
+    "name": "Galaxy S23",
+    "price": 300,
+    "description": "Celular 8gb ram 256gb Almacenamiento",
+    "img": "https://images.samsung.com/is/image/samsung/p6pim/mx/2302/gallery/mx-galaxy-s23-s918-sm-s918bzkvltm-534854413?$650_519_PNG$",
+    "category": "Celular",
+    "id": 4
+  },
+  {
+    "name": "Asus Rog Phone",
+    "price": 300,
+    "description": "Celular gamer 12gb ram RGB y Ventiadores",
+    "img": "https://dlcdnwebimgs.asus.com/gain/00CAD0A6-2D8E-43F9-8A32-29CCF1001ACC/w1000/h732",
+    "category":"Celular",
+    "id": 5
+   
+  },
+ 
+  {
+    "name": "Dell G5",
+    "price": 300,
+    "description": "Laptop gamer 12gb ram 512gb ssd Teclado RGB",
+    "img": "https://ddtech.mx/assets/uploads/37d1e72e3220bacc02379c9ad1ce3440.png",
+    "category": "Laptop",
+    "id": 6
+  }
+]
+
+  

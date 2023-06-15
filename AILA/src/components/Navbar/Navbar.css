@@ -1,0 +1,25 @@
+.logo{
+    width: 60px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #EFC3F5;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+    
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+}
