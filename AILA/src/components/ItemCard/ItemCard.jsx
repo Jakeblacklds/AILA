@@ -9,8 +9,9 @@ const ItemCard = ({ id, name, description, price, category,img }) => {
       <img className='itemdetail__img' src={img} alt={name} />
       
       <p>Precio: ${price}</p>
-      
-      <Link to={`/item/${id}`}>Ver detalle</Link>
+      <div className='itemcard__btn'>
+      <Link className='itemcard__link' to={`/item/${id}`}>Ver detalle</Link>
+      </div>
     </div>
   )
 }

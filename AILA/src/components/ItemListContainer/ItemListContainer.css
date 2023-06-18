@@ -1,2 +1,59 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+.container {
+    overflow: hidden;
+    height: 10vh;
+    transition: height 0.5s;
+    margin-inline: 20%;
+    }
+  
+.container.show {
+    height: 100vh;
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin: 20px;
+    font-size: 5vw;
+    text-align: center;
+    }
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+  /* Media queries */
+
+@media (max-width: 768px) {
+    .container {
+    height: 20vh;
+    margin-inline: 0;
+    }
+
+    .loading {
+    height: 20vh;
+    font-size: 8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+    height: 30vh;
+    }
+
+    .loading {
+    height: 30vh;
+    font-size: 10vw;
+    }
+}
+
+
+

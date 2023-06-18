@@ -1,7 +1,19 @@
 .itemlist{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    margin: 20px;
-    margin-inline: 20%;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .itemlist{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .itemlist{
+        grid-template-columns: 1fr;
+    }
 }
